@@ -1,0 +1,40 @@
+
+.brand-logo img {
+    height: 32px;
+    padding-left: 30px;
+}
+/*CONFIGURAÇÃO DA NEVEGAÇÃO*/
+#nav-icons-right a.login{
+    margin-left: 10px;
+}
+
+
+/*CONFIGURAÇÃO DOS LOGOS*/
+.logo-link{
+    width: 80px;
+}
+.logo1{
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+@media only screen and (max-width: 601px) {
+    .logo1{
+        width: 110px;
+        margin-left: 10px;
+        
+    }
+  }
+
+  /*CONFIGURAÇÃO DO CARROSSEL*/
+  .car01-fundo{
+      background-image: url(../img/banner01.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  .car01-texto{
+      padding-left: 50%;
+      padding-right: 20px;
+      text-align: right;
+  }
+  
